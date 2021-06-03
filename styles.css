@@ -52,17 +52,16 @@ nav li {
 
 /* Sections */
 
-.presentation{
+.presentation {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-
-.intro, .competences {
+.intro,
+.competences {
   max-width: 800px;
   margin-top: 30px;
-  
 }
 
 .intro p {
@@ -71,9 +70,9 @@ nav li {
   text-align: center;
 }
 
-.competences{
-    display: flex;
-    justify-content: space-around;
+.competences {
+  display: flex;
+  justify-content: space-around;
 }
 .competences article {
   display: flex;
@@ -81,27 +80,66 @@ nav li {
   align-items: center;
   padding: 0 20px 0 20px;
 }
-.competences h2{
-    text-transform: uppercase;
-    font-size: 1.4em;
-    font-weight: 400;
+.competences h2 {
+  text-transform: uppercase;
+  font-size: 1.4em;
+  font-weight: 400;
 }
-.competences p{
-    font-size: 0.8em;
-    text-align: center;
+.competences p {
+  font-size: 0.8em;
+  text-align: center;
 }
 
 .avis {
   max-width: 600px;
   margin-top: 50px;
 }
-.avis p{
-    color: rgb(87, 87, 87);
-    text-align: center;
+.avis p {
+  color: rgb(87, 87, 87);
+  text-align: center;
 }
-.avisTexte{
-    font-size: 1.3em;
+.avisTexte {
+  font-size: 1.3em;
 }
-.avisRedacteur{
-    font-weight: 400;
+.avisRedacteur {
+  font-weight: 400;
+}
+
+/* Footer */
+
+footer {
+  background: #5b359d;
+  padding-top: 18px;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  font-size: 0.5em;
+  font-weight: 400;
+}
+
+.reseauxSociaux {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 40px 0 40px;
+  font-size: 30px;
+  text-align: center;
+}
+.reseauxSociaux .fab {
+  margin: 0 40px 0 40px;
+}
+
+.contenuFooter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.colFooter h3 {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+}
+
+.colFooter li,
+.colFooter p {
+  color: white;
 }
