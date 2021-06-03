@@ -1,0 +1,36 @@
+/* Generale */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 1210px;
+  padding: 0 10px;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  margin: auto 0;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  padding-left: 30px;
+}
+
